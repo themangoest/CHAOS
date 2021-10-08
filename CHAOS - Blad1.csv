@@ -1,0 +1,25 @@
+Back BOM,,,
+Amount,Designator,Part Type,Properties
+1,,Generic molex header - 4 pins,"package THT; hole size 1.0mm,0.508mm; row single; form molex; pins 4; pin spacing 0.1in (2.54mm)"
+2,"c11, c12",Electrolytic Capacitor,"package 0405 [SMD, electrolytic]; capacitance 10µF; voltage 6.3V"
+8,"c13-c18, c21, c22",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 100nF; voltage 6.3V"
+2,"c19, c20",Ceramic Capacitor,"package 0603 [SMD, multilayer]; capacitance 1nF; voltage 6.3V"
+2,"D1, D2",Zener Diode,package 300 mil [THT]; breakdown voltage 4.3V; type Zener; power dissipation 0.5W; part # 4.3v
+3,"IC1, IC2, IC3",SO08,package SO08; true; chip label IC; part # TL071
+1,,Generic female header - 11 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 11; pin spacing 0.1in (2.54mm)"
+2,,Inductor,package 400 mil [THT]
+5,"r1, r2. r3, r6, r7",100k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 100kΩ
+1,r4,2.2k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 2.2kΩ
+1,r5,390k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 390kΩ
+3,"r8, r10, r12",1k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 1kΩ
+2,"r9, r11",3.3m Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 3.3mΩ
+,,,
+Front BOM,,,
+Amount,Designator,Part Type,Properties
+4,BANANA,BLUE,
+2,Hex 10mm M3,Male Female,
+3,"r1, r2, r3",Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance 1MΩ
+1,r4,Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance 100kΩ
+3,"r5, r6, r7",5.6k Ω Resistor,package 0603 [SMD]; tolerance ±5%; resistance 5.6kΩ
+4,Hex 11mm M3,Female Female,
+6,Machine screw M3,6mm,
